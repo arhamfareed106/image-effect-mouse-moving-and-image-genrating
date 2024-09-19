@@ -33,3 +33,41 @@ html, body {
     object-fit: cover;
     transform: translateY(100%);
 }
+
+
+  /* Media Queries for Responsiveness */
+  @media screen and (max-width: 1024px) {
+    #center {
+        width: 70%;
+        height: 70%;
+    }
+
+    .imagediv {
+        width: 180px;
+        height: 243px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #center {
+        width: 80%;
+        height: 80%;
+    }
+
+    .imagediv {
+        width: 150px;
+        height: 202px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #center {
+        width: 90%;
+        height: 90%;
+    }
+
+    .imagediv {
+        width: 120px;
+        height: 162px;
+    }
+}
